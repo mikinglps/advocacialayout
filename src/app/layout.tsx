@@ -1,4 +1,4 @@
-import { NavBar } from '@/components'
+import { Footer, NavBar } from '@/components'
 import './globals.css'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import type { Metadata } from 'next'
@@ -21,6 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
           <NavBar />
           {children}
+          <Footer />
         </body>
     </html>
   )

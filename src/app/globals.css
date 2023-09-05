@@ -40,3 +40,15 @@ body {
 .overhero__left{
   @apply w-[10px] h-[100px] bg-brand absolute left-0 top-[22%];
 }
+
+.pros__col{
+  @apply flex flex-row gap-3
+}
+
+.itens__single{
+  @apply w-[250px] h-[150px] flex flex-row shadow-xl text-black p-5 gap-2
+}
+
+.footer__contato p{
+  @apply font-thin text-sm
+}

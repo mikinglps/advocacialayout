@@ -10,7 +10,7 @@ export const Hero = () => {
             <h2 className='text-xl font-extrabold tracking-widest'>TATIANA RAMOS BOAZÃO</h2>
             <p className='text-md font-semibold italic'>Advogada OAB/RS 00.000</p>
             <p className='text-xs font-thin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus augue, vulputate at facilisis vitae, sagittis vitae ex. Etiam lectus est, auctor et faucibus vitae, pretium in quam.</p>
-            <button className='border-2 border-white bg-transparent p-1 w-[100px] mt-2 hover:bg-white hover:text-black'><span className=''>Sobre</span></button>
+            <button className='border-2 border-white bg-transparent p-1 w-[100px] mt-2 hover:bg-white hover:text-black'>Sobre</button>
         </div>
         <div className='overhero w-3/4 h-[200px] absolute bottom-[-100px] left-[12%] bg-bg rounded-2xl shadow-xl'>
             <div className='overhero__left'>
