@@ -34,7 +34,7 @@ body {
 }
 
 .overhero__row{
-  @apply text-black font-semibold text-sm w-1/4 h-[150px]
+  @apply text-black font-semibold text-sm w-1/4 md:h-[150px]
 }
 
 .overhero__left{
@@ -42,13 +42,21 @@ body {
 }
 
 .pros__col{
-  @apply flex flex-row gap-3
+  @apply flex flex-row gap-3 p-3
 }
 
 .itens__single{
-  @apply w-[250px] h-[150px] flex flex-row shadow-xl text-black p-5 gap-2
+  @apply md:w-[250px] md:h-[150px] h-[200px] flex flex-row shadow-xl text-black p-5 gap-2
 }
 
 .footer__contato p{
   @apply font-thin text-sm
+}
+
+.contato__info-left p{
+  @apply text-sm font-thin
+}
+
+.contato__info-left h3{
+  @apply text-sm font-bold text-brand
 }

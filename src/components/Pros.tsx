@@ -9,7 +9,7 @@ export const Pros = () => {
     const rows = pros.length
   return (
     <section className='pros my-[5%]'>
-        <div className='pros__inicio flex flex-row w-[800px] m-auto p-5'>
+        <div className='pros__inicio flex flex-row md:w-[800px] m-auto p-5'>
             <div className='pros__inicio-left w-1/5'>
             <h2 className='text-brand font-semibold text-xl'>Como atuo</h2>
             </div>
@@ -24,7 +24,7 @@ export const Pros = () => {
             {pros.slice(0, rows / 2).map((items, index) => (
                 <div className='itens__single' key={index}>
                     <div className='items__box-icon'>
-                        <FontAwesomeIcon icon={icons[index]} size='2x' className='text-brand'/>
+                        <FontAwesomeIcon icon={icons[index]} className='text-brand text-[14px] md:text-[20px]'/>
                     </div>
                     <ProsCard titulo={items.titulo} descricao={items.descricao} />
                 </div>
@@ -37,7 +37,7 @@ export const Pros = () => {
                 return (
                 <div className='itens__single' key={index}>
                     <div className='items__box-icon'>
-                        <FontAwesomeIcon icon={icons[indexIcon]} size='2x' className='text-brand'/>
+                        <FontAwesomeIcon icon={icons[indexIcon]} className='text-brand text-[14px] md:text-[20px]'/>
                     </div>
                     <ProsCard titulo={items.titulo} descricao={items.descricao} />
                 </div>

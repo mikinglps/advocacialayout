@@ -11,7 +11,7 @@ export const Sobre = () => {
                 <h2 className='text-xl font-semibold'>Sobre Mim</h2>
                 <p className='text-xs font-thin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at tellus nec sem vulputate volutpat. Duis accumsan ornare ante, non pharetra tellus porta id. Mauris auctor turpis eros, ac interdum mauris pharetra eu. Proin mollis ac leo vel facilisis. Maecenas aliquet non tortor vitae egestas. Morbi volutpat tellus ut convallis suscipit. Cras posuere lectus ut consequat dapibus. In non nisl quis ipsum porta laoreet sit amet a erat. Quisque a vestibulum elit. Ut eu nibh bibendum libero hendrerit tempor. Morbi venenatis nisi a mauris sollicitudin gravida. Cras eu nisl egestas, consectetur neque ut, dapibus leo.</p>
             </div>
-            <div className='sobre__holder-img w-1/4'>
+            <div className='sobre__holder-img md:w-1/4 w-2/4'>
                 <Image src='/sobre.png' alt='Foto da advogada' width={300} height={300} className='object-cover'/>
             </div>
         </div>

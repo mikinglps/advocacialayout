@@ -13,7 +13,8 @@ const config: Config = {
         'brand': '#9b4b31'
       },
       backgroundImage: {
-        bghero: "url('/bgHero.png')"
+        bghero: "url('/bgHero.png')",
+        bgcontato: "url('/contato-banner.jpg')"
       }
     },
   },

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const Atuacao = () => {
   return (
-    <section id='atuacao' className='atuacao flex flex-row max-w-[1280px] w-full m-auto items-center justify-center p-5 mt-[10%]'>
+    <section id='atuacao' className='atuacao flex md:flex-row flex-col max-w-[1280px] w-full m-auto items-center justify-center p-5 mt-[10%]'>
         <div className='atuacao__row1 w-1/3 flex flex-col gap-2 items-center'>
             <div className='row_object'>
                 <h2 className='titulo_atuacao'>Trabalhista</h2>
