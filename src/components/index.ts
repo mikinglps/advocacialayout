@@ -6,4 +6,4 @@ import { Pros } from "./Pros";
 import { Footer } from "./Footer";
 import { Contato } from './Contato';
 
-export { Hero, NavBar, Atuacao, Sobre, Footer, Pros, Contato, Map }
+export { Hero, NavBar, Atuacao, Sobre, Footer, Pros, Contato }
