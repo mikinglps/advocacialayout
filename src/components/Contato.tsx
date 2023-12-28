@@ -3,11 +3,10 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { Map } from '.';
 
 export const Contato = () => {
   return ( 
-    <section className='contato mt-[9%] text-center text-black'>
+    <section className='contato mt-[9%] text-center text-black p-5'>
       <div id='contato' className='contato__info w-4/5 m-auto'>
           <div className='contato__info-holder flex flex-row w-full justify-center'>
             <div className='contato__info-left text-left w-1/3 flex flex-col gap-2'>

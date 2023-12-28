@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api'
 import React, { useMemo } from 'react'
 
@@ -23,3 +23,4 @@ export const Map = () => {
       </div>
   )
 }
+*/
