@@ -1,11 +1,10 @@
-import { Contato, Hero, Map } from '@/components'
+import { Contato, Hero } from '@/components'
 
 export default function Home() {
   return (
     <main>
       <Hero />
       <Contato />
-      <Map />
     </main>
   )
 }
